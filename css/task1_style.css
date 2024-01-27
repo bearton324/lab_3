@@ -1,0 +1,118 @@
+body {
+    background-color: blanchedalmond;
+    background-image: url('../images/music_pic_4_1.png');
+}
+
+#header {
+    background: rgb(168, 189, 202);
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table, th, tr {
+    border: 2px solid rgb(58, 101, 129);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.nav-bar {
+    list-style: none;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    
+}
+
+.nav-bar>li {
+    display: inline;
+    margin-right: 7px;
+}
+
+.button {
+    background-color: rgb(130, 112, 141);
+    border-radius: 5px;
+    border-color: rgb(46, 102, 83);
+    color: blanchedalmond;
+}
+
+.personal-suggestions-title {
+    text-align: center;
+    background-color: rgb(145, 194, 178);
+    border-radius: 12px;
+    width: 15%;
+    min-width: 200px;
+    font-size: 30px;
+}
+
+#personal-suggestion>div{
+    display: inline-block;
+    width: 320px;
+    height: 345px;
+    text-align: center;
+    margin-right: 1.75%;
+    margin-left: 1.75%;
+    margin-bottom: 2%;
+    background-color: rgb(128, 150, 190);
+    border-radius: 13px;
+}
+
+#personal-suggestion img {
+    padding: 7px 7px 7px 7px;
+    width: 300px;
+    height: 300px;
+}
+
+.old-favourite-title {
+    text-align: center;
+    background-color: rgb(209, 109, 106);
+    border-radius: 12px;
+    width: 15%;
+    min-width: 200px;
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+#old-favourite>div{
+    display: inline-block;
+    width: 320px;
+    height: 345px;
+    text-align: center;
+    margin-right: 1.75%;
+    margin-left: 1.75%;
+    margin-bottom: 2%;
+    background-color: rgb(147, 65, 155);
+    border-radius: 13px;
+}
+
+#old-favourite img {
+    padding: 7px 7px 7px 7px;
+    width: 300px;
+    height: 300px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+    opacity: 80%;
+    font-style: italic;
+    height: 30px;
+    padding-top: 10px;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
